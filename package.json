@@ -1,6 +1,7 @@
 {
   "name": "react-example",
   "version": "1.0.0",
+  "description": "A sample react project showing the use of @state-management/state-machine-react.",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
     "tsc-ver": "tsc -version"
   },
@@ -44,5 +45,23 @@
   "devDependencies": {
     "ts-jest": "^29.2.5",
     "typescript": "4.9"
+  },
+  "keywords": [
+    "state-management",
+    "command-pattern",
+    "typescript",
+    "rxjs",
+    "example",
+    "react",
+    "react-native"
+  ],
+  "author": "Gopakumar Nair",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/state-management/react-example.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
