@@ -1,10 +1,10 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { CounterControlsContainer } from '../../containers/CounterControlsContainer';
-import { StateMachine } from 'simple-state-machine';
-import {setupMockStateMachine} from "state-machine-react/dist/cjs/tests";
+import { StateMachine } from '@state-management/simple-state-machine';
+import {setupMockStateMachine} from "@state-management/state-machine-react/dist/cjs/tests";
 
-jest.mock('simple-state-machine');
+jest.mock('@state-management/simple-state-machine');
 
 describe('CounterControlsContainer', () => {
     let mockStateMachine: any;

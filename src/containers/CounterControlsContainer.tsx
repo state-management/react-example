@@ -1,6 +1,6 @@
 import React from 'react';
 import { CounterControls } from '../components/CounterControls';
-import {useDispatcher} from "state-machine-react";
+import {useDispatcher} from "@state-management/state-machine-react";
 import {DecrementCounterCommand, IncrementCounterCommand} from "../commands/CounterCommands";
 
 

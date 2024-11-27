@@ -1,4 +1,4 @@
-import { Command } from 'simple-state-machine';
+import { Command } from '@state-management/simple-state-machine';
 import { CounterKey } from '../constants/StateKeysConstants';
 
 export class IncrementCounterCommand extends Command<void> {
