@@ -7,7 +7,7 @@ import {DecrementCounterCommand, IncrementCounterCommand} from "../commands/Coun
 export const CounterControlsContainer: React.FC = () => {
     const dispatch = useDispatcher();
 
-    const increment = () => dispatch(new IncrementCounterCommand());
+    const increment = () => dispatch(new IncrementCounterCommand(1));
     const decrement = () => dispatch(new DecrementCounterCommand());
 
     return <CounterControls onIncrement={increment}
