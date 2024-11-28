@@ -10,21 +10,18 @@ library with React. The project showcases:
 
 The **state-machine-react** is a React-specific wrapper for the core library, [simple-state-machine](https://www.npmjs.com/package/@state-management/simple-state-machine).
 
----
 
 ## Features
 - **State Management**: Powered by `@state-management/state-machine-react`, this project integrates a simple yet powerful state management system.
 - **React Hooks**: Includes examples of the `fromState` and `useDispatcher` hooks for managing state in React.
 - **Unit Testing**: Demonstrates how to mock the state machine using `setupMockStateMachine` for testing.
 
----
 
 ## Prerequisites
 Make sure you have the following installed:
 - Node.js (16.x or later)
 - npm (8.x or later)
 
----
 
 ## Getting Started
 
