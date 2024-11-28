@@ -1,14 +1,14 @@
 # React Example with State Machine
 
 This is an example project demonstrating how to use the
-[**state-machine-react**](https://github.com/state-management/state-machine-react). 
+[**state-machine-react**](https://www.npmjs.com/package/@state-management/state-machine-react). 
 library with React. The project showcases:
 
 - Subscribing to state changes using the `fromState` hook.
 - Dispatching commands using the `useDispatcher` hook.
 - Unit testing React components with `setupMockStateMachine`.
 
-The **state-machine-react** is a React-specific wrapper for the core library, [simple-state-machine](https://github.com/state-management/simple-state-machine).
+The **state-machine-react** is a React-specific wrapper for the core library, [simple-state-machine](https://www.npmjs.com/package/@state-management/simple-state-machine).
 
 ---
 
